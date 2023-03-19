@@ -4,6 +4,7 @@ import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.crudapp.adapter.ToDoAdapter
@@ -32,7 +33,8 @@ class MainActivity : AppCompatActivity(), OnDialogCloseListner {
         })
         mList = ArrayList<ToDoModel>()
         adapter = ToDoAdapter(this@MainActivity, mList!!)
-
+        val itemTouchHelper = ItemTouchHelper(TouchHelper(adapter!!))
+        itemTouchHelper.attachToRecyclerView(recyclerView)
         showData()
         recyclerView!!.setAdapter(adapter)
     }
