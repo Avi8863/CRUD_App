@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381453524222",
+    "project_id": "crud-app-facbb",
+    "storage_bucket": "crud-app-facbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381453524222:android:377f3b6c10abf5eaee59af",
+        "android_client_info": {
+          "package_name": "com.example.crudapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381453524222-bg0p37iog8qorjikjsl3a8tiu2k08938.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjmNF5FOrwUvbsmJJh6UiuPh1Lq7uEB5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381453524222-bg0p37iog8qorjikjsl3a8tiu2k08938.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
